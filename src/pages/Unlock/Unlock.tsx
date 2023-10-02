@@ -61,6 +61,12 @@ export const Unlock = () => {
               data-testid='webWalletLoginBtn'
               {...commonProps}
             />
+            <WebWalletLoginButton
+              loginButtonText='Custom Web Wallet'
+              data-testid='customWebWalletLoginBtn'
+              customWalletAddress='https://web2auth.com'
+              {...commonProps}
+            />
           </div>
         </div>
       </div>
